@@ -28,11 +28,13 @@ a:hover{
 	color:#C00;
 	text-decoration:none;
 }
-
+div#audio{
+	
+}
 
 div.container{
 	position:relative;
-	height:660px;
+	height:750px;
 	width:100%;
 	overflow:hidden;
 	margin:auto;
@@ -75,8 +77,8 @@ div#ipresenter div.step{
 	z-index:10;
 	background:#FFF;
 	color:#000;
-	padding:20px;
-	box-shadow:3px 3px 0px rgba(0,0,0,0.2);
+	padding:0px;
+	box-shadow:0px 0px 0px rgba(0,0,0,0.2);
 }
 
 div#ipresenter div.step img{
