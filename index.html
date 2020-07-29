@@ -9,8 +9,6 @@
 </head>
 <body>
 
-
-
 <link rel="stylesheet" href="css/style.css" />
 
 <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
@@ -25,15 +23,16 @@ $(document).ready(function(){
 		timerPadding: 5,
 		timerColor: '#000',
 		timerBg: '#FFF',
-		timerOpacity: 0.2,
+		timerOpacity: 0.1,
 		directionNav: false,
 		controlNav: true
 	});
 });
+
 </script>
 
 <div class="container">
-	<audio id="audio" src="Marriage_d'amour.mp3" controls="controls" loop="loop" autoplay="autoplay" type="audio/mp3">
+	<audio id="mp3" src="Marriage_d'amour.mp3" loop="loop" autoplay="autoplay" preload="metadata" type="audio/mpeg">
 		Your browser does not support the audio element.
 	</audio>
 	<div id="ipresenter">
@@ -75,6 +74,5 @@ $(document).ready(function(){
 		</div>
 	</div>
 </div>
-
 </body>
 </html>

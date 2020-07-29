@@ -28,17 +28,21 @@ a:hover{
 	color:#C00;
 	text-decoration:none;
 }
-div#audio{
-	
+div#mp3Btn{
+	margin: 90px auto;
+	width: 186px;
+	height: 186px;
+	background:url(images/voice_stop.png) no-repeat center bottom;
+	background-size:cover;
 }
 
 div.container{
 	position:relative;
-	height:750px;
+	height:880px;
 	width:100%;
 	overflow:hidden;
 	margin:auto;
-	margin-top:10px;
+	margin-top:20px;
 	border-radius:5px;
 }
 
@@ -82,7 +86,7 @@ div#ipresenter div.step{
 }
 
 div#ipresenter div.step img{
-	max-height:600px;
+	max-height:760px;
 }
 
 .ipresenter-controlNav{
